@@ -1,0 +1,167 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-size: 16px;
+  color: #657180;
+}
+
+.daily-menu {
+  position: fixed;
+  overflow: auto;
+  width: 150px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background: #f5f7f9;
+}
+
+.daily-menu-item {
+  margin: 5px 0;
+  padding: 10px 0;
+  border-right: 2px solid transparent;
+  font-size: 18px;
+  text-align: center;
+  cursor: pointer;
+  transition: all .3s ease-in-out;
+}
+
+.daily-menu-item:hover {
+  background: #e3e8ee;
+}
+
+.daily-menu-item.on {
+  border-right: 2px solid #39f;
+}
+
+.daily-menu ul {
+  list-style: none;
+}
+
+.daily-menu ul li a {
+  display: block;
+  padding: 5px 0;
+  margin: 5px 0;
+  color: inherit;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.daily-menu ul li a:hover,
+.daily-menu ul li a.on {
+  color: #39f;
+}
+
+.daily-list {
+  position: fixed;
+  overflow: auto;
+  width: 300px;
+  left: 150px;
+  top: 0;
+  bottom: 0;
+  border-right: 1px solid #d7dde4;
+}
+
+.daily-date {
+  margin: 10px 0;
+  text-align: center;
+}
+
+.daily-item {
+  display: block;
+  overflow: hidden;
+  padding: 16px;
+  color: inherit;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all .3s ease-in-out;
+}
+
+.daily-item:hover {
+  background: #e3e8ee;
+}
+
+.daily-img {
+  float: left;
+  width: 80px;
+  height: 80px;
+}
+
+.daily-img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 3px;
+}
+
+.daily-title {
+  padding: 10px 5px 10px 90px;
+}
+
+.daily-title.noImg {
+  padding-left: 5px;
+}
+
+.daily-article {
+  margin-left: 450px;
+  padding: 20px;
+}
+
+.daily-article-title {
+  padding: 10px 0;
+  font-size: 28px;
+  font-weight: bold;
+  color: #222;
+}
+
+.view-more a {
+  display: block;
+  padding: 4px 0;
+  border-radius: 3px;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  background: #f5f7f9;
+}
+
+.daily-comments {
+  margin: 10px 0;
+}
+
+.daily-comments span {
+  display: block;
+  margin: 10px 0;
+  font-size: 20px;
+}
+
+.daily-comment {
+  overflow: hidden;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px dashed #e3e8ee;
+}
+
+.daily-comment-avatar {
+  float: left;
+  width: 50px;
+  height: 50px;
+}
+
+.daily-comment-avatar img {
+  width: 100%;
+  height: 100%;
+  border-radius: 3px;
+}
+
+.daily-comment-content {
+  margin-left: 65px;
+}
+
+.daily-comment-time {
+  margin-top: 5px;
+  font-size: 14px;
+  color: #9ea7b4;
+}
+
+.daily-comment-text {
+  margin-top: 10px;
+}
